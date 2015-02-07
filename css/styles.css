@@ -337,5 +337,6 @@ a:active {
 
 .container {
     background-color: #FFF;
+    height: auto;
     width: 100%;
 }
