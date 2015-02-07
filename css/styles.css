@@ -334,3 +334,8 @@ a:active {
     color: #F7CA18;
     border-color: #FFF;
 }
+
+.container {
+    background-color: #FFF;
+    width: 100%;
+}
