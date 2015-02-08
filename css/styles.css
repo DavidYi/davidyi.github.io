@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lato|Play|Open+Sans);
+
 html {
     width: 100%;
     height: 100%;
@@ -39,6 +40,7 @@ body {
 li {
     list-style: none;
     display: inline;
+    font-size: 19px;
 }
 
 a:hover {
@@ -142,16 +144,12 @@ a:active {
 }
 
 .navbar-nav a {
-    padding: 10px;
+    padding: 20px;
     font-size: 1.5em;
 }
 
-.navbar move {
-    color: #FFF;
-    -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
+.navbar-nav a:hover{
+    background: #FFF;
 }
 
 .intro-bg {
@@ -166,11 +164,16 @@ a:active {
     min-width: 100%;
     position: fixed;
     z-index: -999;
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
+    -webkit-filter: blur(9px);
+    -moz-filter: blur(9px);
+    -o-filter: blur(9px);
+    -ms-filter: blur(9px);
+    filter: blur(9px);
+    -webkit-filter: grayscale(0.2);
+    -moz-filter: grayscale(0.2);
+    -o-filter: grayscale(0.2);
+    -ms-filter: grayscale(0.2);
+    filter: grayscale(0.2);
 }
 
 .intro {
@@ -184,12 +187,6 @@ a:active {
     right: 0;
     margin-left: 20px;
     margin-right: 20px;
-}
-
-.name {
-    color: #000;
-    text-decoration: none;
-    font-size: 20px;
 }
 
 .Title {
@@ -294,16 +291,38 @@ a:active {
 }
 
 .achievements {
+    overflow: hidden;
     font-size: 25px;
-    padding-top: 10px;
     font-family: "Gandhi Sans" sans-serif;
     text-align: center;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 80px;
+    background: url(../images/achievements.jpg);
+    background-size: cover;
+    width: 100%;
+    min-width: 100%;
+    position: static;
+    z-index: -999;
+    color: #fff;
+    filter: brightness(50%) -webkit-filter: brightness(50%);
+    -moz-filter: brightness(50%);
+    -o-filter: brightness(50%);
+    -ms-filter: brightness(50%);
 }
 
 .prof {
     overflow: hidden;
-    background-color: #000;
-    color: white;
+    padding-top: 0;
+    margin: 0;
+    padding-bottom: 80px;
+    background: url(../images/earth-desktop-background.jpg);
+    background-size: cover;
+    width: 100%;
+    min-width: 100%;
+    position: static;
+    z-index: -999;
+    color: #FFF;
 }
 
 .python {
