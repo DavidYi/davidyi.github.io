@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Public+Sans:600&display=swap');
+@import 'normalize';
+
+body {
+	background: #2c3e50;
+	color: #ecf0f1;
+}
+
+.title {
+	font: 'Public Sans', sans-serif;
+	font-weight: 600;
+}
+
+.avatar {
+  border-radius: 50%;
+  max-height: 150px;
+}
+
+.main-content {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	padding-bottom: 150px;
+
+	p {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 1.25em;
+	}
+
+	h1{
+		font-family: 'Public Sans', sans-serif;
+		font-weight: 600;
+		font-size: 3em;
+	}
+
+}
+
+.contact {
+	a {
+		font-size: 1.25em;
+		font-family: 'Open Sans', sans-serif;
+		color: #ecf0f1;
+		padding-right: 10px;
+	}
+	a:visited {
+		color: #ecf0f1;
+	}
+}
